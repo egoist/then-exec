@@ -1,6 +1,6 @@
 {
   "name": "then-exec",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Promisify child_promise&#39;s exec method",
   "license": "MIT",
   "repository": "egoist/then-exec",
@@ -32,6 +32,11 @@
     "semicolon": false
   },
   "testen": {
-    "node": ["4.2.4", "0.12.0", "5.6.0", "0.10.32"]
+    "node": [
+      "4.2.4",
+      "0.12.0",
+      "5.6.0",
+      "0.10.32"
+    ]
   }
 }
