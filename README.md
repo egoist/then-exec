@@ -4,37 +4,20 @@
 
 ## Install
 
-```
+```bash
 $ npm install --save then-exec
 ```
 
 ## Usage
 
 ```js
-const thenExec = require('then-exec');
+const exec = require('then-exec')
 
-thenExec('unicorns');
-//=> 'unicorns & rainbows'
+exec('ls -A')
+	.then((error, stdout, stderr) => {
+		// handle by youself
+	})
 ```
-
-## API
-
-### thenExec(input, [options])
-
-#### input
-
-Type: `string`
-
-Lorem ipsum.
-
-#### options
-
-##### foo
-
-Type: `boolean`  
-Default: `false`
-
-Lorem ipsum.
 
 ## License
 
