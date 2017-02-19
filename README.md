@@ -14,8 +14,8 @@ $ npm install --save then-exec
 const exec = require('then-exec')
 
 exec('ls -A')
-	.then((error, stdout, stderr) => {
-		// handle by youself
+	.then(({error, stdout, stderr}) => {
+		// your code
 	})
 ```
 
